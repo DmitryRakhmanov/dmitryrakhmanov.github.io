@@ -1,0 +1,26 @@
+#main{
+
+}
+#main p{
+  display: none;
+}
+#main img{
+  display: none;
+}
+#main:target p{
+  display: block;
+
+}
+#main:target img{
+  display: block;
+}
+#main:target + #click{
+  display: none;
+}
+#main:target ~ #back{
+  display: block;
+}
+#back{
+  display: none;
+  margin-left: 10px;
+}

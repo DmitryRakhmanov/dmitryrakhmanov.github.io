@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab13</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: darkorange;
+
+    }
+    .title {
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      top: 10%;
+      left: 0;
+      margin-top: -35px;
+      z-index: 999;
+    }
+    .hrt:hover
+    {
+      transform: scale(1.2);
+    }
+
+.box {
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 30px;
+    transition: .2s;
+    margin-top: 15%;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px yellow;
+}
+  .container{
+
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+.ph1 {
+
+    box-shadow: 0 0 5px;
+    border-radius: 20px;
+}
+
+.f {
+
+  position: absolute;
+  left: 1%;
+  top: 10%;
+}
+.p1 {
+
+  position: absolute;
+  left: 54%;
+  top: 83%;
+}
+.p2 {
+
+  position: absolute;
+  left: 16%;
+  top: 57%;
+}
+.p3 {
+
+  position: absolute;
+  left: 63%;
+  top: 57%;
+}
+  </style>
+</head>
+
+<body>
+<div id="main">
+  <div class="f" ><img src="fw.gif" alt="img" width="2000px"></div>
+  <div class="p1" ><img src="1.gif" alt="img" width="250px"></div>
+  <div class="p2" ><img src="2.gif" alt="img" width="500px"></div>
+  <div class="p3" ><img src="3.gif" alt="img" width="500px"></div>
+</div>
+<div class="title" align="center">
+    <a href="#main" id="click"><img class="hrt" src="heart.png" width="100px" alt=""></a>
+    </div>
+    <a href="#" id="back">Вернуть все</a>
+    <a href="index1.html" id="back">Задание</a>
+
+<div class="container" align="center">
+<div class="box"><img class="ph" src="np.jpg" align="center" width="350px" alt=""></div>
+</div>
+</body>
+</html>
