@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab14</title>
+  <style>
+    body {
+      background-color: darkorange;
+
+    }
+
+    img {
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px red;
+      transition: .5s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    .timg {
+      border-radius: 20px;
+      position: absolute;
+      padding: 10px;
+      width: 50%;
+      transition: .2s;
+      top:7%;
+      left:1%;
+    }
+
+  .timg:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px red;
+  }
+    .topbox {
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      top: 0%;
+      left: 0;
+      margin-top: -35px;
+      z-index: 999;
+    }
+
+    .top {
+
+      font-size: 250%;
+      font-family: monospace;
+      padding: 5px;
+      background-color: red;
+      box-shadow: 1px 1px 20px orange;
+
+    }
+
+
+
+    .txt {
+      position: absolute;
+      left: 57%;
+      width: 40%;
+
+      text-align: justify;
+      top: 15%;
+      box-shadow: 0px 0px 6px black;
+      border-radius: 8px;
+      background-color: #FF7F50;
+    }
+
+
+
+    .op {
+
+      font-family: monospace;
+      font-size: 17px;
+      padding: 0px 15px 5px 15px;
+
+    }
+
+
+    .char {
+
+      position: relative;
+      top: 750px;
+      margin-bottom: 20px;
+      width: 100%;
+      height: 500px;
+      box-shadow: 0px 0px 7px black;
+      background-color: #FFD700;
+      z-index: 2;
+      border-radius: 10px;
+    }
+
+    .f {
+
+
+      left: 1.5%;
+      top: 20%;
+    }
+
+    .s {
+
+      top: 20%;
+      left: 35%;
+    }
+
+    .t {
+
+      top: 20%;
+      left: 68%;
+    }
+    .f,
+    .s,
+    .t{
+      position: absolute;
+      border-radius: 20px;
+      width: 30%;
+    }
+
+    .f:hover,
+    .s:hover,
+    .t:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 20px 5px red;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="topbox">
+    <p class="top">Маленькая красная панда</p>
+  </div>
+  <img  class="timg" src="1.jpg" alt="" width="550px">
+  <div class="txt">
+
+    <p class="op">Смотрители красной панды и ее новорожденного детеныша в Орегонском зоопарке решили запечатлеть на камеру практически каждый шаг малыша, а мы теперь можем любоваться этим трогательным пушистым комочком сколько душе угодно. Детеныши
+      красной панды рождаются слепыми, их глаза открываются через несколько недель, и обычно они не покидают убежище в течение нескольких месяцев после рождения. Персонал по уходу за животными в Орегонском зоопарке все это время старался никак не
+      тревожить Мэй Мэй и ее детеныша, наблюдая за ними с помощью камеры наблюдения, установленной внутри домика красных панд, чтобы убедиться, что все в порядке. Впрочем, особо они не волновались – Мэй Мэй выхаживает уже не первого детеныша. У
+      новорожденного детеныша шерстка хранит лишь бледный отголосок яркого меха взрослой красной панды. Однако по мере взросления шерсть будет принимать все более насыщенные краски. Пока малыш в основном спит (сопит, зевает и потягивается), а
+      проснувшись начинает играть с мамой или робко изучать мир вокруг – природное любопытство дает о себе знать. </p>
+  </div>
+  <div class="char">
+    <img class="f" src="1.gif"  alt="">
+
+    <img class="s" src="2.gif"  alt="">
+
+    <img  class="t" src="3.gif"  alt="">
+
+    </div>
+
+
+
+
+</body>
+
+</html>
