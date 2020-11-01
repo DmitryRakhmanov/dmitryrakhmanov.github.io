@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>lab15</title>
+  <style>
+    body {
+      background-color: #faebd7;
+      text-align: center;
+      font-size: large;
+    }
+
+    .t1,
+    .t2,
+    .t3 {
+      border-left: 10px solid #E58519;
+      border-right: 10px solid #E58519;
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      width: 40%;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 30%;
+    }
+.li gif{
+  width:250px;
+}
+    .t1 {
+      text-align: left;
+      list-style-image: url(1g.gif);
+    }
+
+    .t2 {
+      text-align: right;
+      list-style-image: url(2g.gif);
+    }
+
+    .t3 {
+      text-align: center;
+      list-style-image: url(3g.gif);
+    }
+
+    .t1 li:nth-child(odd),
+    .t2 li:nth-child(even),
+    .t3 li:nth-child(odd) {
+      background: #F8FAD7;
+    }
+
+    .t1 li:nth-child(even),
+    .t2 li:nth-child(odd),
+    .t3 li:nth-child(even) {
+      background: #D7FAEB;
+    }
+  </style>
+</head>
+
+<body>
+  <p style="letter-spacing:2pt;">Маленькое межбуквенное расстояние</p>
+  <p style="letter-spacing:15pt;">Большое межбуквенное расстояние</p>
+  <br>
+  <br>
+  <p style="line-height:6pt;">
+    Маленькое межстрочное расстояние <br>
+    Выглядит так.
+  </p>
+  <p style="line-height:64pt;">
+    Большое межстрочное расстояние <br>
+    Выглядит так.
+  </p>
+  <ul class="t1">
+    <li>Выравнивание текста осуществляется по</li>
+    <li>левому</li>
+    <li>краю.</li>
+  </ul>
+  <ul class="t2">
+    <li>Выравнивание текста осуществляется по</li>
+    <li>правому</li>
+    <li>краю.</li>
+  </ul>
+  <ul class="t3">
+    <li>Выравнивание текста осуществляется по</li>
+    <li>центру.</li>
+  </ul>
+</body>
+
+</html>
