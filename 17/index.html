@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>lab17</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: url(bg1.jpg) 0 0/cover no-repeat fixed;
+
+    }
+
+    .box {
+      display: flex;
+      margin: 30px 30px 30px 30px;
+      flex-wrap: wrap;
+
+    }
+
+    .box photo {
+      width: 250px;
+      padding: 5px;
+      flex: auto;
+    }
+
+    photo img {
+      width: 100%;
+      height: auto;
+    }
+
+    img {
+      box-shadow: 0px 0px 10px #CF6DC8;
+      transition: transform 1s ;
+
+    }
+
+    img:hover {
+      transform: scale(1.8);
+      box-shadow: 0px 0px 40px #CF6DC8;
+      outline: dotted #CF6DC8;
+    }
+
+
+
+
+.text {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0);
+    transition: .4s;
+
+}
+p {
+  font-family: 'Gabriela', serif;
+  font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.name {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 50px 50px;
+    flex-wrap: wrap;
+
+}
+
+.ph1,
+.ph2 {
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px silver;
+    background: white;
+    display: block;
+    font-family: 'poppins', sans-serif;
+    transition: .4s;
+    margin: 0px;
+    align-self: center;
+}
+.ph1:hover,
+.ph2:hover {
+    transform: scale(1.02);
+
+}
+.nph{
+    width:500px;
+    height:350px;
+    box-shadow: none;
+}
+.nph:hover{
+transform: none;
+    box-shadow: none;
+}
+
+
+  </style>
+</head>
+
+<body>
+<div class="name">
+<p class="text">Катя и Соня</p>
+</div>
+
+
+<div class="flex-parent">
+    <div class="ph1"><img class="nph" src="11.jpg"  alt="">
+
+    </div>
+
+    <div class="ph2"><img class="nph" src="12.jpg"  alt="">
+
+    </div>
+</div>
+
+  <div class="box" >
+    <photo ><img src="1.jpg" alt=""  ></photo>
+    <photo><img src="2.jpg" alt="" ></photo>
+    <photo><img src="3.jpg" alt=""></photo>
+    <photo><img src="4.jpg" alt=""></photo>
+    <photo><img src="5.jpg" alt=""></photo>
+    <photo><img src="6.jpg" alt=""></photo>
+
+
+
+  </div>
+  </div>
+</body>
+
+</html>
