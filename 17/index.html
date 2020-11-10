@@ -35,17 +35,16 @@
     }
 
     img {
-      box-shadow: 0px 0px 10px #CF6DC8;
-      transition: transform 1s;
-
+    box-shadow: 0px 0px 10px #CF6DC8;
+    transition: transform 1s;
     }
 
     img:hover {
-      transform: scale(1.8);
-      box-shadow: 0px 0px 40px #CF6DC8;
-      outline: dotted #CF6DC8;
+    box-shadow: 0px 0px 40px #CF6DC8;
+    transform: translateY(-150px) scaleY(1.8);
+    outline: 5px solid #CF6DC8;
+    outline-offset: 5px;
     }
-
 
 
 
@@ -57,6 +56,22 @@
       transition: .4s;
 
     }
+
+ .panda{
+   box-shadow: none;
+   transition: none;
+   padding: 0px;
+   display: block;
+   margin: 10px;
+   align-self: center;
+
+ }
+ .panda:hover{
+   transform: none;
+   box-shadow: none;
+   outline: none;
+ }
+
 
     p {
       font-family: 'Gabriela', serif;
@@ -70,13 +85,27 @@
 
     .name {
       text-align: center;
-      font-family: 'poppins', sans-serif;
+      font-family: 'Gabriela', serif;
       font-size: 30px;
       font-weight: 500;
       display: flex;
       justify-content: center;
       padding: 10px;
+      animation-name: aniname;
+    animation-iteration-count: infinite;
+    animation-duration: .8s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.18,.67,.95,.69);
     }
+@keyframes aniname {
+  0% {
+        transform: skewX(20deg);
+    }
+
+    100% {
+        transform: skewX(-20deg);
+    }
+}
 
     .flex-parent {
       display: flex;
@@ -92,7 +121,6 @@
       box-shadow: 0 0 10px silver;
       background: white;
       display: block;
-      font-family: 'poppins', sans-serif;
       transition: .4s;
       margin: 0px;
       align-self: center;
@@ -124,12 +152,15 @@
 
 
   <div class="flex-parent">
-    <div class="ph1"><img class="nph" src="11.jpg" alt="">
 
+    <div class="ph1"><img class="nph" src="11.jpg" alt="">
     </div>
 
-    <div class="ph2"><img class="nph" src="12.jpg" alt="">
+<div class="panda">
+  <img class="panda" src="hi.gif" width="100%">
+</div>
 
+    <div class="ph2"><img class="nph" src="12.jpg" alt="">
     </div>
   </div>
 
