@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>lab19</title>
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript">
+  function show_alert() {
+      alert("Hello There!");
+    }
+  </script>
+
+</head>
+
+<body>
+
+
+
+  <div class="title" class="">
+    <h1>Canada</h1>
+  </div>
+
+
+
+  <div class="box">
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="1.png" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2>Канада - <span>вторая</span> по величине страна в мире</h2>
+              <p>От ближайшего соперника – России,<br> Канада с ее 9 984 670 кв.км. <br>отстает только в два раза</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="2.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2>В Канаде больше <span>озер</span>, чем во всем остальном мире</h2>
+              <p>В «Стране озер» сосредоточено более 3 млн озер, а это примерно 9% канадской территории</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="3.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2> Канада – страна с самым высоким <span>уровнем образования</span> в мире</h2>
+              <p>Высшее образование имеют более половины всего населения Канады</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="4.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2>Канада – страна с самым высоким потреблением <span>пончиков</span> на душу населения</h2>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg" ><img src="6.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2><span>"Правитель"</span> Канады</h2>
+              <p>Формально Канадой правит британская королева Елизавета II</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="5.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2>77% <span>кленового сиропа</span> в мире произведено именно в Канаде</h2>
+              <p style="font-size:14px">Клен на флаге не случаен: он на протяжении многих лет был единственным источником сахара для коренных жителей и переселенцев.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="8.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2>Номерные знаки в форме <span>медведя</span></h2>
+              <p style="font-size:14px">Автомобили северо-западного региона страны гордо носят номера, выполненные в форме белого медведя — там эти животные особенно активны.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="7.gif" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2>Обычное утро в Канаде</h2>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="dws">
+        <div class="blocImg"><img src="9.jpg" alt="">
+          <div class="blocText">
+            <div class="text">
+              <h2><span>Североамериканский бобер</span></h2>
+              <p>Является национальным животным Канады</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+
+  <input type="button" onclick="show_alert()" value="Тест окна JS" />
+
+<script>
+        let arr = ['1st', '2nd', '3rd']
+        document.write(arr[0] + ' ' + arr[1])
+        let delLast = arr.pop()
+        let addLast = arr.push('newElement')
+        document.write(' ')
+        document.write(arr[2])
+        document.write(' ')
+        let addFirst = arr.unshift('1stNew')
+        let addLast1 = arr.push('newLastElement')
+        for (let i = 0; i < arr.length; i++) {
+            document.write(' ')
+            document.write(arr[i])
+        }
+
+        let string = '«Every man in the world! Every woman on earth!»'
+        let rep = /(wo)?man/g
+        let newString = string.replace(rep, 'person')
+        document.write(' ')
+        document.write(newString)
+        rep.compile(rep);
+    </script>
+
+</body>
+
+</html>
