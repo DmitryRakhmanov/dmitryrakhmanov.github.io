@@ -1,0 +1,42 @@
+
+<!DOCTYPE html> <!-- Узел документа -->
+<html lang="en">
+<!-- Корневой узел -->
+<head>
+      <!-- Узел элемента -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> <!-- Href - узел атрибута -->
+  <title>lab20</title><!-- Узел элемента -->
+
+</head>
+
+<body>
+  <!-- Узел элемента -->
+  <div align=center>
+    <!-- Узел элемента -->
+    <h1 align=center>Красная панда
+      <!-- Текстовый узел -->
+    </h1> <!-- Узел элемента -->
+    <img src="panda.jpg" class="img" alt="" width="20%" align=center><!-- Узел элемента -->
+    <!-- Src - узел атрибута -->
+    <p id="text1">
+      <!-- Узел элемента -->
+      <!-- Текстовый узел -->
+    </p>
+      <div id="text2">
+      <p>За яркую шерсть её называют «огненной лисой», а за повадки — «кошачьим медведем». Последние генетические исследования позволили выделить малую панду в отдельное семейство — пандовые.
+      </p>
+    </div>
+  </div>
+  <script>
+    document.getElementById('text1').innerHTML =
+      '  Симпатичный зверь размером с крупного домашнего кота, малая панда полосатым хвостом похожа на енота.'
+    let warn = document.getElementsByClassName('text1')
+    let llog = document.getElementById('text2')
+    llog.style.fontWeight = 'bold';
+  </script>
+
+</body>
+
+</html>

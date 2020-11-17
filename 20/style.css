@@ -1,0 +1,58 @@
+  body {
+    background: linear-gradient(180deg, DarkOrange, white) no-repeat;
+
+  }
+
+  h1 {
+
+    color: black;
+    font-size: 30px;
+    text-decoration: underline red;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  h1:hover {
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 30px black;
+  }
+
+  img {
+    box-shadow: 1px 1px 20px black;
+    border-radius: 15px;
+    transition: 0.4s;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  img:hover {
+    box-shadow: 1px 1px 60px orangered;
+  }
+
+  p {
+    margin-top: 20px;
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    font-size: 120%;
+    color: rgb(77, 77, 77);
+    text-shadow: 0px 0px 1px;
+    transition: .3s;
+    box-shadow: 0px 0px 10px black;
+  }
+
+  P:first-letter {
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    font-size: 200%;
+    color: red;
+  }
