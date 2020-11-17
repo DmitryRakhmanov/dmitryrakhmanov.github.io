@@ -20,20 +20,20 @@
     </h1> <!-- Узел элемента -->
     <img src="panda.jpg" class="img" alt="" width="20%" align=center><!-- Узел элемента -->
     <!-- Src - узел атрибута -->
-    <p id="text1">
+    <p id="warning">
       <!-- Узел элемента -->
       <!-- Текстовый узел -->
     </p>
-      <div id="text2">
+      <div id="log">
       <p>За яркую шерсть её называют «огненной лисой», а за повадки — «кошачьим медведем». Последние генетические исследования позволили выделить малую панду в отдельное семейство — пандовые.
       </p>
     </div>
   </div>
   <script>
-    document.getElementById('text1').innerHTML =
+    document.getElementById('warning').innerHTML =
       '  Симпатичный зверь размером с крупного домашнего кота, малая панда полосатым хвостом похожа на енота.'
-    let warn = document.getElementsByClassName('text1')
-    let llog = document.getElementById('text2')
+    let warn = document.getElementsByClassName('warning')
+    let llog = document.getElementById('log')
     llog.style.fontWeight = 'bold';
   </script>
 
