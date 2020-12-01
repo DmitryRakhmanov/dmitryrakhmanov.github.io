@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab24</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+<audio  id="track" autoplay="autoplay">
+  <source src="brenda.mp3" type="audio/mpeg" />
+</audio>
+
+<div id="player-container">
+  <div id="play-pause" class="play">Play</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="title" class="">
+  <div id="container1">
+
+  <p><a>
+    10 Things to do before New Year
+  </a></p>
+
+
+
+</div>
+</div>
+
+<div class="box">
+
+<section>
+  <div class="wrapper">
+
+    <div class="cols">
+
+
+  			<div class="col" ontouchstart="this.classList.toggle('hover');">
+  				<div class="container">
+  					<div class="front" style="background-image: url(11.jpg)">
+  						<div class="inner">
+  							<p>Съесть 1 кг мандаринок</p>
+<span>1</span>
+  						</div>
+  					</div>
+  					<div class="back" style="background-image: url(1.jpg)">
+  						<div class="inner">
+
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+	<div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)" >
+        <div class="inner">
+          <p>Поваляться в сугробе</p>
+          <span>2</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(2.jpg)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Прибраться в комнате</p>
+          <span>3</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(3.jpg)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Создать список дел на следующий год</p>
+          <span>4</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(4.jpg)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Украсить дом к Новому году</p>
+          <span>5</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(5.jpg)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Подготовиться к сессии</p>
+          <span>6</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(6.jpeg)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Поменять резину на зимнюю</p>
+          <span>7</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(7.jpg)">
+        <div class="inner">
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Провести марафон любимых новогодних фильмов</p>
+          <span>8</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(8.jpg)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Спланировать бюджет</p>
+          <span>9</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(0.gif)">
+        <div class="inner">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col" ontouchstart="this.classList.toggle('hover');">
+    <div class="container">
+      <div class="front" style="background-image: url(11.jpg)">
+        <div class="inner">
+          <p>Купить подарки</p>
+          <span>10</span>
+        </div>
+      </div>
+      <div class="back" style="background-image: url(10.jpg)">
+        <div class="inner">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        </div>
+        </div>
+</section>
+
+
+
+
+
+</div>
+
+
+
+
+  <script>
+
+
+
+
+
+
+
+var track = document.getElementById('track');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+  if (track.paused) {
+    track.play();
+    //controlBtn.textContent = "Pause";
+    controlBtn.className = "pause";
+  } else {
+    track.pause();
+    //controlBtn.textContent = "Play";
+    controlBtn.className = "play";
+  }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+  </script>
+  </body>
+
+  </html>
